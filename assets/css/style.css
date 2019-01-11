@@ -1,0 +1,149 @@
+/*-----------------------------Background Colors*/
+
+.bg-color-full {
+    background-color: #fafafa;
+}
+
+.ui-menu-color {
+    background-color: #000000;
+}
+
+/*-----------------------------General Rules*/
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+/*-----------------------------Wrapper Divs*/
+
+.name-wrapper {
+    background-color: rgba(0, 10, 10, 0.7);
+}
+
+/*-----------------------------Header*/
+
+.logo {
+    background: url("../images/live-band.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 05s ease-in-out;
+    -moz-transition: all 05s ease-in-out;
+    -webkit-transition: all 05s ease-in-out;
+}
+
+.header-title {
+    padding: 120px;
+}
+
+.name {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    padding: 15px;
+    color: rgba(250, 250, 250, 0.7);
+}
+
+.menuitem {
+    height: 110px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: inherit;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+
+/*-----------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.hvr-fade {
+    background-color: #000000
+}
+
+/*-----------------------------Footer*/
+
+.container-fluid {
+    background-color: #525252;
+    color: #8f8f8f;
+    min-height: 120px;
+    margin: 0;
+}
+
+.inline-block {
+    color: #fafafa;
+}
+
+footer .cv-pdf i {
+    color: #fafafa;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer .cv-pdf i:hover {
+    color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #000000;
+}
+
+#footer-details {
+    margin: 20px;
+}
+
