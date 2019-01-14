@@ -8,12 +8,33 @@
     background-color: #000000;
 }
 
+.bg-color-section-full {
+    background-color: #555555
+}
+
+.bg-color-personal-info {
+    background-color: #555555;
+}
+
+.bg-color-three-reasons {
+    background-color: #555555;
+}
+
 /*-----------------------------General Rules*/
+
 
 .list-inline>li {
     display: inline-block;
     padding-right: 0;
     padding-left: 0;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 
@@ -81,6 +102,86 @@
 
 }
 
+/*-----------------------------Section*/
+
+.availability-header {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    padding: 15px;
+    color: rgba(250, 250, 250, 0.7);
+}
+
+.section-column-information {
+        padding-top: 70px;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+.row {
+    margin-right: 0px; 
+    margin-left: 0px;
+}
+
+.section-column {
+    height: 400px;
+}
+
+.about-us-video {
+    text-align: center;
+}
+
+.availability-section {
+    width: 100%;
+    height: 300px;
+}
+
+/*-----------------------------Three Reasons*/
+
+.availability-icon {
+    font-size: 50px;
+    color: #3ca5b3;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/*-----------------------------Personal Info*/
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key .personal-info-item .value {
+    padding-right: 8px;
+}
+
+.personal-info-item .key p .personal-info-item .key p p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+
+}
 
 /*-----------------------------Hover.css*/
 
@@ -95,7 +196,7 @@
 /*-----------------------------Footer*/
 
 .container-fluid {
-    background-color: #525252;
+    background-color: #000000;
     color: #8f8f8f;
     min-height: 120px;
     margin: 0;
@@ -146,4 +247,16 @@ footer .cv-pdf i:hover {
 #footer-details {
     margin: 20px;
 }
+
+/*-----------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+
+
 
