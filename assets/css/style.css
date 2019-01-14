@@ -16,7 +16,7 @@
     background-color: #555555;
 }
 
-.bg-color-three-reasons {
+.bg-color-availability {
     background-color: #555555;
 }
 
@@ -137,14 +137,14 @@
     height: 300px;
 }
 
-/*-----------------------------Three Reasons*/
+/*-----------------------------Availability*/
 
 .availability-icon {
     font-size: 50px;
     color: #3ca5b3;
 }
 
-.three-reasons-heading {
+.availability-heading {
     margin-bottom: 15px;
 }
 
@@ -206,18 +206,22 @@
     color: #fafafa;
 }
 
-footer .cv-pdf i {
+footer .band-pdf i {
     color: #fafafa;
     font-weight: bold;
     text-align: center;
 }
 
-footer .cv-pdf i:hover {
-    color: #e84610;
+footer .band-pdf i:hover {
+    color: #3ca5b3;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.our-social-title {
+    padding-left: 15px;
 }
 
 .social-links {
@@ -227,6 +231,7 @@ footer .cv-pdf i:hover {
 .social-links li a i {
     width: 32px;
     height: 32px;
+    margin-left: 20px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
@@ -241,7 +246,7 @@ footer .cv-pdf i:hover {
 }
 
 .social-links li a i:hover {
-    background: #000000;
+    background: #3ca5b3;
 }
 
 #footer-details {
