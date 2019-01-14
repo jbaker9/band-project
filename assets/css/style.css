@@ -20,8 +20,11 @@
     background-color: #555555;
 }
 
-/*-----------------------------General Rules*/
+.bg-color-member-name {
+    background-color: #555555;
+}
 
+/*-----------------------------General Rules*/
 
 .list-inline>li {
     display: inline-block;
@@ -35,6 +38,10 @@
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.white-text {
+    color: #ffffff;
 }
 
 
@@ -114,13 +121,13 @@
 }
 
 .section-column-information {
-        padding-top: 70px;
-        padding-left: 15px;
-        padding-right: 15px;
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .row {
-    margin-right: 0px; 
+    margin-right: 0px;
     margin-left: 0px;
 }
 
@@ -253,6 +260,65 @@ footer .band-pdf i:hover {
     margin: 20px;
 }
 
+/*-----------------------------Band Members*/
+
+.band-member-name {
+    background-color: #fafafa;
+}
+
+.band-member-information {
+    margin-top: 50px;
+}
+
+.first-band-member {
+    background: url("../images/band-members/first-band-member.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.second-band-member {
+    background: url("../images/band-members/second-band-member.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.third-band-member {
+    background: url("../images/band-members/third-band-member.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.fourth-band-member {
+    background: url("../images/band-members/fourth-band-member.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.fifth-band-member {
+    background: url("../images/band-members/fifth-band-member.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.band-information-icon {
+    font-size: 26px;
+    color: #3ca5b3;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
 /*-----------------------------Contact*/
 
 .contact-heading {
@@ -291,7 +357,3 @@ button[type="submit"]:hover {
         float: none;
         display: table-cell;
     }
-
-
-
-
