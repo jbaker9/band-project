@@ -253,6 +253,36 @@ footer .band-pdf i:hover {
     margin: 20px;
 }
 
+/*-----------------------------Contact*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background: #3ca5b3;
+}
+
 /*-----------------------------Media Queries*/
 
 @media(min-width: 992px) {
