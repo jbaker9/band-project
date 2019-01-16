@@ -319,6 +319,22 @@ footer .band-pdf i:hover {
     margin-bottom: 15px;
 }
 
+/*-----------------------------Media*/
+
+.music-preview {
+    position: relative;
+    display: inline-block;
+}
+
+.music-preview-wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    background-color: #3ca5b3;
+}
+
+
+
 /*-----------------------------Contact*/
 
 .contact-heading {
