@@ -70,7 +70,7 @@
 
 .name {
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 100px;
+    font-size: 1.8em;
     font-weight: 300;
     text-align: center;
     padding: 15px;
@@ -239,7 +239,7 @@ footer .band-pdf i:hover {
     width: 32px;
     height: 32px;
     margin-left: 20px;
-    padding: 12px 0;
+    padding: 12px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
@@ -250,6 +250,10 @@ footer .band-pdf i:hover {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li {
+    padding-top: 15px;
 }
 
 .social-links li a i:hover {
@@ -267,47 +271,51 @@ footer .band-pdf i:hover {
 }
 
 .band-member-information {
-    margin-top: 50px;
+    margin-top: 15px;
+}
+
+.band-member-picture {
+    position: absolute;
 }
 
 .first-band-member {
     background: url("../images/band-members/first-band-member.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 315px;
 }
 
 .second-band-member {
     background: url("../images/band-members/second-band-member.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 315px;
 }
 
 .third-band-member {
     background: url("../images/band-members/third-band-member.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 315px;
 }
 
 .fourth-band-member {
     background: url("../images/band-members/fourth-band-member.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 315px;
 }
 
 .fifth-band-member {
     background: url("../images/band-members/fifth-band-member.jpg");
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 315px;
 }
 
 .band-information-icon {
@@ -372,4 +380,25 @@ button[type="submit"]:hover {
         padding: 0 30px 30px;
         float: none;
         display: table-cell;
+    }
+    
+    .heading {
+    z-index: 2;
+    height: relative;
+    min-width: 50%;
+    }
+    
+    .name {
+        font-size: 4em;
+    }
+    
+    .band-member-mq {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    }
+    
+    .band-member-information {
+    margin-top: 50px;
     }
