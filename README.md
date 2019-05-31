@@ -86,5 +86,47 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
+Credits for band project 
+
+- Header main image
+http://koko.uk.com/listings/roni-size-reprazent-31-01-2015
+
+- Band pdf
+http://www.hugoowensband.org/Hugo_Owens_Band/Future_Members_files/Band%20Brochure.pdf
+
+- First band member photo
+https://i.pinimg.com/originals/ca/51/bf/ca51bf9f6e2b4364c0d3df8e7f69c2d6.jpg
+
+- Second band member photo
+https://i.pinimg.com/236x/41/1d/d0/411dd07cf8c1981b11da83c9d314188a.jpg
+
+- Third band member photo
+https://www.pinterest.com/beatlesstephanie/ringo-starr-early-60s/
+
+- Fourth band member photo
+https://www.pinterest.com/gingea/musical-instruments-and-some-famous-band-members/
+
+- Fifth band member photo 
+https://i.pinimg.com/236x/d8/80/1c/d8801c9a9a205547dda2c7a7293de307.jpg
+
+- First band photo
+https://cbstampa.files.wordpress.com/2012/06/nightlife-music-live-band-karaoke.jpg
+
+- Second band photo
+https://upload.wikimedia.org/wikipedia/commons/d/dc/Tele_band_live.jpg
+
+- Third band photo
+https://soundbites.typepad.com/.a6a00d8341c81bd53ef0120a7a9f2af970b-800wi
+
+- Fourth band photo
+https://media-cdn.tripadvisor.com/media/daodao/photo-s/03/9f/a5/b1/live-band.jpg
+
+- Fifth band photo
+http://www.duffys.ie/wp-content/uploads/2013/07/Live-Bands-at-Duffys.jpg
+
+- Sixth band photo
+https://i.ytimg.com/vi/OvYmRI70hck/maxresdefault.jpg
+
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
